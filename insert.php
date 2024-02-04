@@ -20,7 +20,7 @@ values('".$_POST['name'].",".$_POST['mail'].",".$_POST['age'].",".$_POST['commen
 
 <body>
     <h1>お問い合わせフォーム</h1>
-    <div class = "confilm">
+    <div class = "confirm">
         <p>
             お問い合わせ有難うございました。<br>3営業日以内に担当者よりご連絡差し上げます。
         </p>
