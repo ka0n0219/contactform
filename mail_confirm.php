@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>お問合せフォームを作る</title>
-    <limk rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 
 <body>
@@ -32,14 +32,14 @@
 
         <div class = "buttons">
             <form action = "index.html">
-                <imput type = "submit" class = "button1" value = "戻って修正する" />
+                <input type = "submit" class = "button1" value = "戻って修正する" />
             </form>
-            <form action = "insert.php">
-                <imput type = "submit" class = "button2" value = "登録する" />
-                <imput type = "hidden" value = "<?php echo $_POST['name']; ?>" name = "name">
-                <imput type = "hidden" value = "<?php echo $_POST['mail']; ?>" name = "mail">
-                <imput type = "hidden" value = "<?php echo $_POST['age']; ?>" name = "age">
-                <imput type = "hidden" value = "<?php echo $_POST['comments']; ?>" name = "comments">
+            <form action = "insert.php" method = "post">
+                <input type = "submit" class = "button2" value = "登録する" />
+                <input type = "hidden" value = "<?php echo $_POST['name']; ?>" name = "name">
+                <input type = "hidden" value = "<?php echo $_POST['mail']; ?>" name = "mail">
+                <input type = "hidden" value = "<?php echo $_POST['age']; ?>" name = "age">
+                <input type = "hidden" value = "<?php echo $_POST['comments']; ?>" name = "comments">
             </form>
         </div>
     </div>
